@@ -8,7 +8,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-  <?php include('header.php'); ?>
+  <header class="header">
+    <div class="logo">Your Company Logo</div>
+    <?php include('menu.php'); ?>
+  </header>
 
   <div class="content">
     <h1>Welcome to Specialized System Management Software</h1>
@@ -16,6 +19,10 @@
     <!-- more content here -->
   </div>
 
-  <?php include('footer.php'); ?>
+  <footer class="footer">
+    <div class="copyright">&copy; <?php echo date("Y"); ?> Specialized System Management Software. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
