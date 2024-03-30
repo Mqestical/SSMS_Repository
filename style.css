@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6e3b6e; /* Amethyst */
+    color: gold;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b1a5b1; /* Lighter Amethyst */
+}
+
+section {
+    padding: 50px;
+}
+
+section h2 {
+    color: #6e3b6e; /* Amethyst */
+}
+
+.project {
+    background-color: #b1a5b1; /* Lighter Amethyst */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    background-color: gold;
+    color: #6e3b6e; /* Amethyst */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #ffd700; /* Brighter Gold */
+    color: #6e3b6e; /* Amethyst */
+}
+
+footer {
+    background-color: #6e3b6e; /* Amethyst */
+    color: gold;
+    text-align: center;
+    padding: 20px;
+}
